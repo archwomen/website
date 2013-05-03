@@ -1,0 +1,87 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-size: 10pt;
+	font-family: Verdana, "Droid Sans", Arial, Helvetica;
+	color: #CCCCCC;
+	background-color: #2a2a2a;
+}
+
+header .main {
+    height: 70px;
+    color: #fff;
+}
+
+/* 
+ * Top navigation bar 
+ */
+
+#top {
+    font-size: 10pt;
+	background: url(images/background_nav.gif) repeat-x;
+	clear: both;
+	height: 24px;
+	padding: 6px 0px 0px 20px;
+	font-weight: bold;
+}
+
+#top ul li {
+	display: inline;
+	list-style: none;
+}
+
+#top li {
+	padding-right: 20px;
+}
+
+/*
+ * Sidebar
+ */
+
+aside {
+	float: right;
+	width: 180px;
+	padding: 30px 30px 2px 20px;
+}
+
+/* 
+ * Main content area 
+ */
+
+#content {
+	background: #333;
+	margin: 0px 230px 0px 0px;
+	padding: 30px 20px 0px 30px;
+}
+
+
+article {
+	padding: 1.5em;
+}
+
+/*
+ * Site Footer
+ */
+
+footer {
+	clear: both;
+	padding: 30px;
+	color: #999999;
+}
+
+/*
+ * Text Styles
+ */
+
+#content a:link, a:visited {
+	text-decoration: none;
+	color:#1793d1
+}
+
+#content a:hover, a:active {
+	background: #2a2a2a;
+	color: #8cd9ff;
+}
