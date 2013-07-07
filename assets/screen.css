@@ -87,7 +87,9 @@ a:hover, a:active {
 ul, li {
     margin-right: 1em;
 }
-
+.left {
+	float: left;
+}
 /* Main Site Header */ 
 
 header {
@@ -99,6 +101,8 @@ nav.main li {
     list-style: none;
     display: inline;
 } 
+
+/* Articles */
 
 /* Main Site Footer */
 footer {
