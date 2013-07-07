@@ -11,28 +11,27 @@
         <link rel="stylesheet" type="text/css" media="screen" href="assets/screen.css">
     </head>
     <body>
-	<header class="main">
 	    <div class="grid grid-pad">
             <div class="col-1-1">
-		        <div class="content">
-	                <img src="assets/images/archwomen.png">
-			        <nav class="main">
-			            <ul>
-				            <li><a href="/">Home</a></li>
-				            <li><a href="/about">About</a></li>
-			            	<li><a href="/join">Join</a></li>
-				            <li><a href="/contribute">Contribute</a></li>
-				            <li><a href="/community-standards">Community Standards</a></li>
-				            <li><a href="/resources">Resources</a></li>
-				            <li><a href="/contact">Contact</a></li>
-				            <li>"social media icons"</li>
-			            </ul>
-			        </nav>
-		        </div>
+				<div class="content">
+                    <header class="main">
+	                    <img src="assets/images/archwomen.png">
+			            <nav class="main">
+			                <ul>
+				                <li><a href="/">Home</a></li>
+				                <li><a href="/about">About</a></li>
+			            	    <li><a href="/join">Join</a></li>
+				                <li><a href="/contribute">Contribute</a></li>
+				                <li><a href="/community-standards">Community Standards</a></li>
+				                <li><a href="/resources">Resources</a></li>
+				                <li><a href="/contact">Contact</a></li>
+				                <li>"social media icons"</li>
+			                </ul>
+			            </nav>
+				    </header>
+                </div>
 	        </div>
 	    </div>	
-	</header>
-        <article>
         <div class="grid grid-pad">
 	        <div class="col-1-2">
 		        <div class="content">
@@ -76,9 +75,6 @@
                 </div>	    
             </div>
         </div>	    
-        </article>
-	<footer>
-	    <p>&copy; Archwomen.org. Site contact: <a href="mailto:webmaster@archowmen.org">webmaster@archwomen.org</a></p>
-	</footer>
+        <?php include 'assets/footer.html'; ?>
     </body>
 </html>
