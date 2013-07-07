@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arch Linux Women | Resources</title>
+        <meta name="description" content="Organizational website for Arch Women">
+        <meta name="author" content="Arch Women">
+        <meta name="keywords" lang="en-us" content="linux, arch linux, women, arch women, technology, programming, feminism">
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1">
+        
+        <link rel="stylesheet" type="text/css" media="screen" href="../assets/screen.css">
+    </head>
+    <body>
+        <?php include '../assets/header.html'; ?>
+        <div class="grid grid-pad">
+	        <div class="col-1-1">
+		        <div class="content">
+		            <p>test</p>
+	            </div>
+	        </div>
+        </div>	    
+        <?php include '../assets/footer.html'; ?>
+    </body>
+</html>
