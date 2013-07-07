@@ -87,6 +87,9 @@ a:hover, a:active {
 ul, li {
     margin-right: 1em;
 }
+img {
+    margin: .5em;
+}
 .left {
 	float: left;
 }
