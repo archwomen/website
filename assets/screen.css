@@ -95,7 +95,7 @@ img {
 }
 /* Main Site Header */ 
 
-header {
+header.main {
     background: #2a2a2a;
     padding: .1em;
 }
@@ -105,9 +105,14 @@ nav.main li {
     display: inline;
 } 
 
+header.main img {
+	display: inline;
+}
+
 /* Articles */
 
 /* Main Site Footer */
 footer {
-text-align: center;
+	background: #333;
+    text-align: center;
 }
