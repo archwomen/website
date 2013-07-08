@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Arch Linux Women | Contribute</title>
+        <title>Arch Linux Women | Contact</title>
         <meta name="description" content="Organizational website for Arch Women">
         <meta name="author" content="Arch Women">
         <meta name="keywords" lang="en-us" content="linux, arch linux, women, arch women, technology, programming, feminism">

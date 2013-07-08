@@ -99,14 +99,17 @@ header.main {
     background: #2a2a2a;
     padding: .1em;
 }
-
+nav.main {
+	text-align: right;
+	padding: 1em;
+}
 nav.main li {
     list-style: none;
     display: inline;
 } 
 
 header.main img {
-	display: inline;
+	float: left;
 }
 
 /* Articles */

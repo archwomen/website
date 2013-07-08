@@ -15,17 +15,15 @@
             <div class="col-1-1">
 				<div class="content">
                     <header class="main">
-	                    <img src="assets/images/archwomen.png">
+	                    <a href="/"><img src="assets/images/archwomen.png"></a>
 			            <nav class="main">
 			                <ul>
-				                <li><a href="/">Home</a></li>
 				                <li><a href="/about">About</a></li>
 			            	    <li><a href="/join">Join</a></li>
 				                <li><a href="/contribute">Contribute</a></li>
 				                <li><a href="/community-standards">Community Standards</a></li>
 				                <li><a href="/resources">Resources</a></li>
 				                <li><a href="/contact">Contact</a></li>
-				                <li>"social media icons"</li>
 			                </ul>
 			            </nav>
 				    </header>
