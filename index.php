@@ -9,29 +9,11 @@
 	    <meta name="viewport" content="width=device-width,initial-scale=1">
         
         <link rel="stylesheet" type="text/css" media="screen" href="assets/screen.css">
-    </head>
+	</head>
     <body>
-	    <div class="grid grid-pad">
-            <div class="col-1-1">
-				<div class="content">
-                    <header class="main">
-	                    <a href="/"><img src="assets/images/archwomen.png"></a>
-			            <nav class="main">
-			                <ul>
-				                <li><a href="/about">About</a></li>
-			            	    <li><a href="/join">Join</a></li>
-				                <li><a href="/contribute">Contribute</a></li>
-				                <li><a href="/community-standards">Community Standards</a></li>
-				                <li><a href="/resources">Resources</a></li>
-				                <li><a href="/contact">Contact</a></li>
-			                </ul>
-			            </nav>
-				    </header>
-                </div>
-	        </div>
-	    </div>	
+        <?php include '/assets/header.html'; ?>
         <div class="grid grid-pad">
-	        <div class="col-1-2">
+	        <div class="col-8-12">
 		        <div class="content">
 		            <img class="left" src="assets/images/ArchW.png">
 		            <h2>Welcome!</h2>
@@ -46,7 +28,7 @@
 					participate.</p>
 	            </div>
 	        </div>
-	        <div class="col-1-2">
+	        <div class="col-4-12">
 		        <div class="content">
                     <h2>Getting Involved</h2>
 		            <ul>
@@ -73,6 +55,6 @@
                 </div>	    
             </div>
         </div>	    
-        <?php include 'assets/footer.html'; ?>
+        <?php include '/assets/footer.html'; ?>
     </body>
 </html>

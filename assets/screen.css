@@ -76,6 +76,9 @@ body {
     color: #CCCCCC;
     background-color: #333;
 }
+.clear {
+	clear: both;
+}
 a:link, a:visited {
     text-decoration: none;
     color: #1793d1;
@@ -84,14 +87,20 @@ a:hover, a:active {
     text-decoration: none;
     color: #fff;
 }
+a img {
+	border: none;
+}
+img {
+	margin: .5em;
+}
 ul, li {
     margin-right: 1em;
 }
-img {
-    margin: .5em;
-}
 .left {
 	float: left;
+}
+.right {
+	float: right;
 }
 /* Main Site Header */ 
 
@@ -112,10 +121,8 @@ header.main img {
 	float: left;
 }
 
-/* Articles */
-
 /* Main Site Footer */
-footer {
-	background: #333;
+footer.main {
+	background: #2a2a2a;
     text-align: center;
 }
