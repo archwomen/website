@@ -11,7 +11,7 @@
         <link rel="stylesheet" type="text/css" media="screen" href="assets/screen.css">
 	</head>
     <body>
-        <?php include '/assets/header.html'; ?>
+        <?php include 'assets/header.html'; ?>
         <div class="grid grid-pad">
 	        <div class="col-8-12">
 		        <div class="content">
@@ -55,6 +55,6 @@
                 </div>	    
             </div>
         </div>	    
-        <?php include '/assets/footer.html'; ?>
+        <?php include 'assets/footer.html'; ?>
     </body>
 </html>
