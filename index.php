@@ -30,7 +30,7 @@
 	        </div>
 	        <div class="col-4-12">
 		        <div class="content">
-                    <h2>Getting Involved</h2>
+                    <h2>Get Involved</h2>
 		            <ul>
 						<li>
 						    <a href="/join">Join</a>
