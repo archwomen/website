@@ -129,3 +129,22 @@ footer.main {
 .icon {
 	vertical-align: middle;
 }
+
+/* Change Format on Small Screens */
+@media handheld and (max-width: 760px) {
+    .grid {
+        width: 100%;
+	    min-width: 0;
+	    margin-left: 0px;
+	    margin-right: 0px;
+	    padding-left: 0px;
+	    padding-right: 0px;
+    }
+    [class*='col-'] {
+	    width: auto;
+	    float: none;
+        margin: 10px 0px 10px 10px;
+ 	    padding-left: 20px;
+	    padding-right: 20px;
+    }
+}
