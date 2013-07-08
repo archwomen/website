@@ -43,10 +43,10 @@
 						    Contribute to the project
 			                <ul>
 				                <li><a href="/blog">Blog</a></li>
-				                <li><a href=/redmine">Project Manager</a></li>
+				                <li><a href="/redmine">Project Manager</a></li>
 				                <li>Wiki</li>
 				                <li>Teach</li>
-				                <li><a href="https://github.org/archwomen">Github</a></li>
+				                <li><a href="https://github.com/archwomen">Github</a></li>
 			                </ul>
 			            </li>
 			            <li>Spread the word</li>
