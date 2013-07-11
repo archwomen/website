@@ -82,6 +82,9 @@ a:hover, a:active {
     text-decoration: none;
     color: #fff;
 }
+ul, li {
+	padding-left: .5em;
+}
 blockquote {
     margin: .5em .5em .5em 2em;
     padding-left: 1em;
@@ -110,6 +113,7 @@ nav.main li {
 
 header.main img {
 	float: left;
+	margin-top: .5em
 }
 
 /* Main Site Footer */
