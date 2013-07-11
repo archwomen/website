@@ -40,7 +40,7 @@
 			                </ul>
 			            </li>
 						<li>
-						    Contribute to the project
+						    <a href="/contribute">Contribute to the project</a>
 			                <ul>
 				                <li><a href="/blog">Blog</a></li>
 				                <li><a href="/redmine">Project Manager</a></li>
