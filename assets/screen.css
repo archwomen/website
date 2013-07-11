@@ -90,13 +90,10 @@ a:hover, a:active {
 a img {
 	border: none;
 }
-img {
-	margin: .5em;
-}
-ul, li {
+li {
     margin: .5em .5em .5em 1em;
 }
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, p, img, ul {
 	margin: .5em;
 }
 blockquote {
