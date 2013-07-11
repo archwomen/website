@@ -94,7 +94,15 @@ img {
 	margin: .5em;
 }
 ul, li {
-    margin-left: 1em;
+    margin: .5em .5em .5em 1em;
+}
+h1, h2, h3, h4, p {
+	margin: .5em;
+}
+blockquote {
+    margin: .5em .5em .5em 2em;
+    padding-left: 1em;
+    border-left: solid 2px #1793d1;
 }
 .left {
 	float: left;
