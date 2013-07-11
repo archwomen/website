@@ -94,7 +94,7 @@ img {
 	margin: .5em;
 }
 ul, li {
-    margin-right: 1em;
+    margin-left: 1em;
 }
 .left {
 	float: left;
@@ -124,7 +124,6 @@ header.main img {
 /* Main Site Footer */
 footer.main {
 	background: #2a2a2a;
-    text-align: center;
 }
 .icon {
 	vertical-align: middle;
