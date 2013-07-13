@@ -20,7 +20,7 @@
 		            <img class="left" src="assets/images/ArchW.png">
 		            <h2>Welcome!</h2>
 		            <p>You've reached the site for the Arch Linux Women project. 
-		            Arch Linux Women (Arch Women or A-W for short) is an all inclusize 
+		            Arch Linux Women (Arch Women or A-W for short) is an all inclusive 
 		            organization of Arch Linux enthusiasts with a focus on helping more
 		            women become involved in the Arch Linux community and 
 		            <abbr title="free open source software"> FOSS</abbr>. To do 
