@@ -8,8 +8,9 @@
 	    <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width,initial-scale=1">
         
-        <link rel="stylesheet" type="text/css" media="all" href="..assets/normalize.css"> 
-        <link rel="stylesheet" type="text/css" media="screen" href="../assets/screen.css">
+        <link rel="stylesheet" type="text/css" media="all" href="/assets/normalize.css"> 
+		<link rel="stylesheet" type="text/css" media="screen" href="/assets/screen.css">
+        <link rel="stylesheet" type="text/css" media="print" href="/assets/print.css">
     </head>
     <body>
         <?php include '../assets/header.html'; ?>

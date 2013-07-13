@@ -1,0 +1,6 @@
+@media print {
+	body { background:white; color:black; margin:0 }
+	header.main, footer.main {display:hidden;}
+	h2, h3 {text-align: center;}
+    a:after { content: " ("attr(href)") "; font-size: 10pt;}
+}
