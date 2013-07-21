@@ -91,6 +91,10 @@ blockquote {
     padding-left: 1em;
     border-left: solid 2px #1793d1;
 }
+img {
+	padding-left: 1em;
+	padding-right: 1em;
+}
 .left {
 	float: left;
 }
