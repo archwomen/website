@@ -33,7 +33,7 @@
 	        <div class="col-1-2">
 		        <div class="content">
                     <h2>Get Involved</h2>
-		            <ul>
+		            <ul class="left">
 						<li>
 						    <a href="/join">Join</a>
 			                <ul>
@@ -44,7 +44,7 @@
 					    <li>Spread the word</li>
 			            <li>Sponsor us</li>
 					</ul>
-	                <ul>
+	                <ul class="left">
 						<li>
                             <a href="/contribute">Contribute to the project</a>
 			                <ul>

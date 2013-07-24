@@ -85,6 +85,7 @@ a:hover, a:active {
 }
 ul, li {
 	padding-left: .5em;
+	margin-left: .5em;
 }
 blockquote {
     margin: .5em .5em .5em 2em;
