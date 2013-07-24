@@ -28,7 +28,7 @@
 					backgrounds to share skills, learn, network and socialize. 
 					Anyone with an interest in our mission is welcome to
 					participate.</p>
-					            </div>
+				</div>
 	        </div>
 	        <div class="col-1-2">
 		        <div class="content">
@@ -79,10 +79,10 @@
 	                    $feed = array();
 	                    foreach ($rss->getElementsByTagName('item') as $node) {
 		                    $item = array ( 
-			                    'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
+								'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
 			                    'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
 			                    'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
-			                    'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
+			                    'date' => $node->getElementsByTagName('ev:startdate')->item(0)->nodeValue,
 			                );
 		                    array_push($feed, $item);
 	                    }
