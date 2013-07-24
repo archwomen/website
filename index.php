@@ -41,19 +41,21 @@
 				                <li><a href="/join/#ally">Allies</a></li>
 			                </ul>
 			            </li>
+					    <li>Spread the word</li>
+			            <li>Sponsor us</li>
+					</ul>
+	                <ul>
 						<li>
-						    <a href="/contribute">Contribute to the project</a>
+                            <a href="/contribute">Contribute to the project</a>
 			                <ul>
 				                <li><a href="/blog">Blog</a></li>
 				                <li><a href="/redmine">Project Manager</a></li>
 				                <li>Wiki</li>
 				                <li>Teach</li>
 				                <li><a href="https://github.com/archwomen">Github</a></li>
-			                </ul>
-			            </li>
-			            <li>Spread the word</li>
-			            <li>Sponsor us</li>
-					</ul>
+							</ul>
+                        </li>
+			        </ul>
                 </div>	    
             </div>
         </div>
