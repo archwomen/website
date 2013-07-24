@@ -92,14 +92,17 @@ blockquote {
     border-left: solid 2px #1793d1;
 }
 img {
-	padding-right: 1em;
-    padding-bottom: 1em;
+	margin-right: .5em;
+    margin-bottom: .5em;
 }
 .left {
 	float: left;
 }
 .right {
 	float: right;
+}
+.justify {
+	text-align: justify;
 }
 /* Main Site Header */ 
 

@@ -19,7 +19,7 @@
 		        <div class="content">
 		            <h2>Welcome!</h2>
 		            <img class="left" src="assets/images/ArchW.png">
-                    <p>You've reached the site for the Arch Linux Women project. 
+                    <p class="justify">You've reached the site for the Arch Linux Women project. 
 		            Arch Linux Women (Arch Women or A-W for short) is an all inclusive 
 		            organization of Arch Linux enthusiasts with a focus on helping more
 		            women become involved in the Arch Linux community and 
@@ -72,7 +72,7 @@
             </div>
             <div class="col-1-2">
 				<div class="content">
-                    <h3>Upcoming Events</h3>
+                    <h2>Upcoming Events</h2>
                     <?php
 	                    $rss = new DOMDocument();
 	                    $rss->load('https://archwomen.org/calendar//rss/rss2.0.php?cal=&cpath=&rssview=month');
