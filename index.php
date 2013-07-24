@@ -82,7 +82,6 @@
 								'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
 			                    'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
 			                    'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
-			                    'date' => $node->getElementsByTagName('ev:startdate')->item(0)->nodeValue,
 			                );
 		                    array_push($feed, $item);
 	                    }
@@ -93,7 +92,6 @@
 		                    $description = $feed[$x]['desc'];
 		                    $date = date('l F d, Y', strtotime($feed[$x]['date']));
 		                    echo '<p><a href="'.$link.'" title="'.$title.'">'.$title.'</a><br />';
-		                    echo 'Posted on '.$date.'</p>';
 		                    echo '<p>'.$description.'</p>';
 	                    }
                     ?>
