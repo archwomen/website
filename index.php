@@ -15,7 +15,7 @@
     <body>
         <?php include 'assets/header.html'; ?>
         <div class="grid grid-pad">
-	        <div class="col-8-12">
+	        <div class="col-1-2">
 		        <div class="content">
 		            <h2>Welcome!</h2>
 		            <img class="left" src="assets/images/ArchW.png">
@@ -28,17 +28,9 @@
 					backgrounds to share skills, learn, network and socialize. 
 					Anyone with an interest in our mission is welcome to
 					participate.</p>
-					<h2>Projects</h2> 
-				    <h3><a href="https://wiki.archlinux.org/index.php/Classroom">Classroom</a></h3>
-					<p>Arch Linux Classroom is a project to develop and host 
-                    teaching materials that can be used by the wider Arch Linux 
-					community. Arch Women is hosting a package building class to 
-                    help increase contributions to Arch Linux.</p>
-                    <h3>Internship</h3>
-                    <h3>Mentor Connection</h3>
-	            </div>
+					            </div>
 	        </div>
-	        <div class="col-4-12">
+	        <div class="col-1-2">
 		        <div class="content">
                     <h2>Get Involved</h2>
 		            <ul>
@@ -61,10 +53,52 @@
 			            </li>
 			            <li>Spread the word</li>
 			            <li>Sponsor us</li>
-		            </ul>
+					</ul>
                 </div>	    
             </div>
-        </div>	    
+        </div>
+        <div class="grid grid-pad">
+            <div class="col-1-2">
+                <div class="content">
+                    <h2>Projects</h2> 
+				    <h3><a href="https://wiki.archlinux.org/index.php/Classroom">Classroom</a></h3>
+					<p>Arch Linux Classroom is a project to develop and host 
+                    teaching materials that can be used by the wider Arch Linux 
+					community. Arch Women is hosting a package building class to 
+                    help increase contributions to Arch Linux.</p>
+                    <h3>Internship</h3>
+                    <h3>Mentor Connection</h3>
+                </div>
+            </div>
+            <div class="col-1-2">
+                <div class="content">
+                    <?php
+	                    $rss = new DOMDocument();
+	                    $rss->load('https://archwomen.org/calendar//rss/rss2.0.php?cal=&cpath=&rssview=month');
+	                    $feed = array();
+	                    foreach ($rss->getElementsByTagName('item') as $node) {
+		                    $item = array ( 
+			                    'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
+			                    'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
+			                    'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
+			                    'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue,
+			                );
+		                    array_push($feed, $item);
+	                    }
+	                    $limit = 5;
+	                    for($x=0;$x<$limit;$x++) {
+		                    $title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
+		                    $link = $feed[$x]['link'];
+		                    $description = $feed[$x]['desc'];
+		                    $date = date('l F d, Y', strtotime($feed[$x]['date']));
+		                    echo '<p><a href="'.$link.'" title="'.$title.'">'.$title.'</a><br />';
+		                    echo 'Posted on '.$date.'</p>';
+		                    echo '<p>'.$description.'</p>';
+	                    }
+                    ?>
+                </div>
+            </div>
+        </div>   
         <?php include 'assets/footer.html'; ?>
     </body>
 </html>
