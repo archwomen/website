@@ -71,7 +71,8 @@
                 </div>
             </div>
             <div class="col-1-2">
-                <div class="content">
+				<div class="content">
+                    <h3>Upcoming Events</h3>
                     <?php
 	                    $rss = new DOMDocument();
 	                    $rss->load('https://archwomen.org/calendar//rss/rss2.0.php?cal=&cpath=&rssview=month');
