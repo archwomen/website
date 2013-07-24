@@ -91,8 +91,7 @@
 		                    $link = $feed[$x]['link'];
 		                    $description = $feed[$x]['desc'];
 		                    $date = date('l F d, Y', strtotime($feed[$x]['date']));
-		                    echo '<p><a href="'.$link.'" title="'.$title.'">'.$title.'</a><br />';
-		                    echo '<p>'.$description.'</p>';
+		                    echo '<p><a href="'.$link.'" title="'.$title.'">'.$description.'</a></p>';
 	                    }
                     ?>
                 </div>
