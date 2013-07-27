@@ -105,6 +105,9 @@ img {
 .justify {
 	text-align: justify;
 }
+#hidden {
+	display: none;
+}
 /* Main Site Header */ 
 
 header.main {
