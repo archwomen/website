@@ -125,6 +125,11 @@ header.main img {
 	margin-top: .5em
 }
 
+/* Articles */
+article {
+	margin: 2em;
+}
+
 /* Main Site Footer */
 footer.main {
 	background: #2a2a2a;

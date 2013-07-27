@@ -13,16 +13,12 @@
     </head>
     <body>
         <?php include '../assets/header.html'; ?>
-        <div class="grid grid-pad">
-	        <div class="col-1-1">
-		        <div class="content">
-                 	<h2 id="women">Join Arch Women</h2>
-                        <p>text here</p>
-                    <h2 id="ally">Become an ally</h2>
-                        <p>text here</p>
-	            </div>
-	        </div>
-        </div>	    
+        <article>
+            <h2 id="women">Join Arch Women</h2>
+                <p>text here</p>
+            <h2 id="ally">Become an ally</h2>
+                <p>text here</p>
+        </article>	    
         <?php include '../assets/footer.html'; ?>
     </body>
 </html>

@@ -14,13 +14,9 @@
     </head>
     <body>
         <?php include '../assets/header.html'; ?>
-        <div class="grid grid-pad">
-	        <div class="col-1-1">
-		        <div class="content">
-		            <p>test</p>
-	            </div>
-	        </div>
-        </div>	    
+     	<article>
+            <p>test</p>
+        </article>	    
         <?php include '../assets/footer.html'; ?>
     </body>
 </html>
