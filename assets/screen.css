@@ -67,7 +67,7 @@
 
 /* Global Site Settings */
 body {
-	margin: .5em;
+    margin: .5em;
     font-family: Verdana, "Droid Sans", Arial, Helvetica;
     color: #CCCCCC;
     background-color: #333;
@@ -82,10 +82,6 @@ a:link, a:visited {
 a:hover, a:active {
     text-decoration: none;
     color: #fff;
-}
-ul, li {
-	padding-left: .5em;
-	margin-left: .5em;
 }
 blockquote {
     margin: .5em .5em .5em 2em;
@@ -118,11 +114,14 @@ nav.main {
 	text-align: right;
 	padding: 1em;
 }
+nav.main ul, li {
+	padding-left: .5em;
+	margin-left: .5em;
+}
 nav.main li {
     list-style: none;
     display: inline;
 } 
-
 header.main img {
 	float: left;
 	margin-top: .5em
