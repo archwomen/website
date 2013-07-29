@@ -33,6 +33,27 @@
                 such as the IRC bot, the website, and server tools. You can jump in there to see our git commits and learn
                 how things are done "behind the scenes".</p>
             <h3>Take part in our monthy meeting</h3>
+            <h3 style="margin-bottom:0">Donate</h3>
+            <p style="display:inline;">Arch Women runs off <del>love</del>
+            <form style="display:inline;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="ADCGV6K9VK2MJ">
+                <input type="image" src="https://archwomen.org/assets/images/icons/coffee.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form></p>
+            <p>Current Costs:
+               <ul>
+                   <li>Domain Name: $10/year</li>
+                   <li>SSL certificate: $9.50/year</li>
+               </ul>
+            Projects we need funded:
+               <ul>
+                   <li>Student Outreach: $500/year</li>
+                   <li>Internship Program: $3000/year</li>
+                   <li>Conventions: $5000/year</li>
+                   <li>Install Party: $1000/year</li>
+               </ul>
+            </p>
             <h3>Join our mailinglist</h3>
             <h3>Contribute to the Wiki</h3>
             <h3>Submit a blog post</h3>
@@ -40,7 +61,6 @@
             <h3>Mentor other members</h3>
             <h3>Teach a class</h3>
             <h3>Help with Software Developement</h3>
-            <h3>Donate</h3>
             <h3>Sponsor us</h3>
         </article>	    
         <?php include '../assets/footer.html'; ?>
