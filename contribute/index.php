@@ -34,7 +34,7 @@
                 how things are done "behind the scenes".</p>
             <h3>Take part in our monthy meeting</h3>
             <h3 style="margin-bottom:0">Donate</h3>
-            <p style="display:inline;">Arch Women runs off <del>love</del>
+            Donate to help cover our current costs or fund future projects by clicking here:
             <form style="display:inline;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="ADCGV6K9VK2MJ">
