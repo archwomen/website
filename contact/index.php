@@ -15,7 +15,8 @@
     <body>
         <?php include '../assets/header.html'; ?>
         <article>
-		    <p>test</p>
+		    <p>Under Construction/Review/p>
+		    <p>In the meantime, come visit us on IRC!</p>
         </article>	    
         <?php include '../assets/footer.html'; ?>
     </body>

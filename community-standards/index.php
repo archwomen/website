@@ -15,7 +15,7 @@
     <body>
         <?php include '../assets/header.html'; ?>
      	<article>
-            <p>test</p>
+            <p>Under Construction/Review</p>
         </article>	    
         <?php include '../assets/footer.html'; ?>
     </body>
