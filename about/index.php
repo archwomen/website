@@ -19,18 +19,18 @@
         <p>The goal of Arch Women is to foster female involvement in Arch Linux 
         and Free Open Source Software. The community is open to female Linux 
         enthusiasts and users, and to the men who support them. If you would like 
-        to join us, pleaes have a look at our community standards to get a feel 
+        to join us, please have a look at our community standards to get a feel 
         for how our community is run.</p>
-        <p>Arch Women has a monthly IRC meeting on the first sunday of every month. 
-        They genreally run for about 2 hours and start at 16:00 UTC.</p>
-        <p>The Arch Women <a href="/blog">Blog</a> is a place for discussion and the sharing of 
+        <p>Arch Women has a monthly IRC meeting on the first Sunday of every month. 
+        They generally run for about 2 hours and start at 16:00 UTC.</p>
+        <p>The Arch Women <a href="/blog">Blog</a> is a place to discuss and share 
         information in a contained and moderated way. <a href="/blog/submit">Submissions</a> 
-        are welcome from anyone who like to share something.</p>
+        are welcome from anyone who would like to share something.</p>
         <p>The #archlinux-women channel was created to provide a "safe space" for 
         people to chat without the need to hide their gender or sexual identity. 
         We also have other ways you can <a href="/contact">contact us</a>.</p>
         <h2>History</h2>
-        <p>Arch Women was founded in February 2012 by Dolores Portalatin &emdash; 
+        <p>Arch Women was founded in February 2012 by Dolores Portalatin - 
         "meskarune". It sprang from an IRC conversation in #archlinux-offtopic about 
         how few women openly contribute to the Arch Linux community. From there an 
         IRC channel (#archlinux-women) was created for planning, a few long time Arch 
