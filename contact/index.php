@@ -15,8 +15,15 @@
     <body>
         <?php include '../assets/header.html'; ?>
         <article>
-		    <p>Under Construction/Review/p>
-		    <p>In the meantime, come visit us on IRC!</p>
+		    <h2>Contact</h2>
+                    <form method="post" action="email.php">
+                    Email: <input name="email" id="email" type="text" /><br />
+
+                    Message:<br />
+                    <textarea name="message" id="message" rows="15" cols="40"></textarea><br />
+
+                    <input type="submit" value="Submit" />
+                    </form>
         </article>	    
         <?php include '../assets/footer.html'; ?>
     </body>
