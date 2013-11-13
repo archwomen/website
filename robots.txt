@@ -1,0 +1,7 @@
+# http://www.robotstxt.org/
+# https://developers.google.com/webmasters/control-crawl-index/docs/robots_txt
+
+User-agent: *
+Disallow: /~* # block user web directories
+#Crawl-delay: 60 # slow bots down
+#Disallow: /*.pdf$ # block PDFs
