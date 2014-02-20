@@ -11,7 +11,8 @@
                                 $title = (string) $item->title; // Title
                                 $link   = (string) $item->link; // Url Link
                                 $description = (string) $item->description; //Description
-                                $rss_split[] = '<a href="'.$link.'" target="_blank">'.$title.'</a><p>'.$description.'</p>';
+                                $content = (string) $item->content; //Content - used in atom feeds
+                                $rss_split[] = '<a href="'.$link.'" target="_blank">'.$title.'</a><p>'.$description.''.$content.'</p>';
                         }
                         return $rss_split;
                 }
