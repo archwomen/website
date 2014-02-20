@@ -82,7 +82,7 @@
                 echo '<div class="grid grid-pad"><div class="col-1-2"><div class="content">', $feedlist->display(4,"<h2>Upcoming Events</h2>"), '</div></div>';
 
                 $feedlist = new atom('https://archwomen.org/news/?type=atom10');
-                echo '<divclass="col-1-2"><div class="content">', $feedlist->display(4,"<h2>Community News</h2>"), '</div></div></div>';
+                echo '<divclass="col-1-2"><div class="content">', $feedlist->display(4,"<h2>Community News</h2>"), '<p><a href="https://archwomen.org/news/">Read more</a></p></div></div></div>';
             ?>
         <?php include 'assets/footer.html'; ?>
     </body>
