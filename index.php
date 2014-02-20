@@ -72,33 +72,18 @@
                     <h3>Mentor Connection</h3>
                 </div>
             </div>
-            <div class="col-1-2">
-				<div class="content">
-                    <h2>Upcoming Events</h2>
-                    <?php
-	                    $rss = new DOMDocument();
-	                    $rss->load('https://archwomen.org/calendar//rss/rss2.0.php?cal=&cpath=&rssview=month');
-	                    $feed = array();
-	                    foreach ($rss->getElementsByTagName('item') as $node) {
-		                    $item = array ( 
-								'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
-			                    'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
-			                    'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
-			                );
-		                    array_push($feed, $item);
-	                    }
-	                    $limit = 5;
-	                    for($x=0;$x<$limit;$x++) {
-		                    $title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
-		                    $link = $feed[$x]['link'];
-		                    $description = $feed[$x]['desc'];
-		                    $date = date('l F d, Y', strtotime($feed[$x]['date']));
-		                    echo '<p><a href="'.$link.'" title="'.$title.'">'.$description.'</a></p>';
-	                    }
-                    ?>
-                </div>
-            </div>
-        </div>   
+            <?php
+                include('inc/rss.php');
+          
+                $feedlist = new rss('https://archwomen.org/blog/feed.atom');
+                echo '<div class="col-1-2"><div class="content">', $feedlist->display(4,"Blog"), '</div></div></div>';
+
+                $feedlist = new rss('https://archwomen.org/calendar//rss/rss2.0.php?cal=&cpath=&rssview=month');
+                echo '<div class="grid grid-pad"><div class="col-1-2"><div class="content">', $feedlist->display(4,"Upcoming Events"), '</div></div>';
+
+                $feedlist = new rss('https://archwomen.org/news/?type=atom10');
+                echo '<divclass="col-1-2"><div class="content">', $feedlist->display(4,"Community News"), '</div></div></div>';
+            ?>
         <?php include 'assets/footer.html'; ?>
     </body>
 </html>
