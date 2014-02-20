@@ -76,13 +76,13 @@
                 include('inc/rss.php');
           
                 $feedlist = new rss('https://archwomen.org/blog/feed.atom');
-                echo '<div class="col-1-2"><div class="content">', $feedlist->display(4,"Blog"), '</div></div></div>';
+                echo '<div class="col-1-2"><div class="content">', $feedlist->display(4,"<h2>Blog</h2>"), '</div></div></div>';
 
                 $feedlist = new rss('https://archwomen.org/calendar//rss/rss2.0.php?cal=&cpath=&rssview=month');
-                echo '<div class="grid grid-pad"><div class="col-1-2"><div class="content">', $feedlist->display(4,"Upcoming Events"), '</div></div>';
+                echo '<div class="grid grid-pad"><div class="col-1-2"><div class="content">', $feedlist->display(4,"<h2>Upcoming Events</h2>"), '</div></div>';
 
                 $feedlist = new rss('https://archwomen.org/news/?type=atom10');
-                echo '<divclass="col-1-2"><div class="content">', $feedlist->display(4,"Community News"), '</div></div></div>';
+                echo '<divclass="col-1-2"><div class="content">', $feedlist->display(4,"<h2>Community News</h2>"), '</div></div></div>';
             ?>
         <?php include 'assets/footer.html'; ?>
     </body>
