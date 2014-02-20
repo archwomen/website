@@ -28,34 +28,33 @@
                         return $rss_data;
                 }
         }
-        class atom {
-            var $feed;
-            function atom($feed) {
-                  $this->feed = $feed;
-            }
-            function parse() {
-                  $atom = simplexml_load_file($this->feed);
-                    $atom_split = array();
-                        foreach ($atom->feed->entry as $entry) {
-                                $title = (string) $entry->title; // Title
-                                $link   = (string) $entry->id; // Url Link
-                                $atom_split[] = '<p><a href="'.$link.'" target="_blank">'.$title.'</a></p>';
-                        }
-                        return $atom_split;
-            }
-            function display($numrows,$head) {
-                $atom_split = $this->parse();
-                $i = 0;
-                $atom_data = '  '.$head.' ';
-                while ( $i < $numrows ) {
-                   $atom_data .= $atom_split[$i];
-                   $i++;
-                }
-                        $trim = str_replace('', '',$this->feed);
-                        $user = str_replace('&lang=enus&format=rss_200','',   $trim);
-                        $atom_data.='     ';
-                        return $atom_data;
-                }
-
+    class atom {
+        var $feed;
+        function atom($feed) {
+            $this->feed = $feed;
         }
+        function parse() {
+            $atom = simplexml_load_file($this->feed);
+            $atom_split = array();
+                foreach ($atom->entry as $entry) {
+                    $title = (string) $entry->title; // Title
+                    $link   = (string) $entry->id; // Url Link
+                    $atom_split[] = '<p><a href="'.$link.'" target="_blank">'.$title.'</a></p>';
+                }
+                return $atom_split;
+        }
+        function display($numrows,$head) {
+            $atom_split = $this->parse();
+            $i = 0;
+            $atom_data = '  '.$head.' ';
+                while ( $i < $numrows ) {
+                    $atom_data .= $atom_split[$i];
+                    $i++;
+                }
+            $trim = str_replace('', '',$this->feed);
+            $user = str_replace('&lang=enus&format=rss_200','',   $trim);
+            $atom_data.='     ';
+            return $atom_data;
+        }
+    }
 ?>
