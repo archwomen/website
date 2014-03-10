@@ -76,7 +76,7 @@
                 include('inc/rss.php');
           
                 $feedlist = new atom('https://archwomen.org/blog/feed.atom');
-                echo '<div class="col-1-2"><div class="content">', $feedlist->display(4,"<h2>Blog</h2>"), '</div></div></div>';
+                echo '<div class="col-1-2"><div class="content">', $feedlist->display(6,"<h2>Blog</h2>"), '<p><a href="https://archwomen.org/blog/">Read more</a></p></div></div></div>';
 
                 $feedlist = new rss('https://archwomen.org/calendar//rss/rss2.0.php?cal=&cpath=&rssview=month');
                 echo '<div class="grid grid-pad"><div class="col-1-2"><div class="content">', $feedlist->display(4,"<h2>Upcoming Events</h2>"), '</div></div>';
