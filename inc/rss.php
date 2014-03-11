@@ -22,8 +22,7 @@
                                 $rss_data .= $rss_split[$i];
                                 $i++;
                         }
-                        $trim = str_replace('', '',$this->feed);
-                        $user = str_replace('&lang=enus&format=rss_200','',   $trim);
+                        $user = str_replace('&lang=enus&format=rss_200','',$this->feed);
                         $rss_data.='     ';
                         return $rss_data;
                 }
@@ -51,8 +50,7 @@
                     $atom_data .= $atom_split[$i];
                     $i++;
                 }
-            $trim = str_replace('', '',$this->feed);
-            $user = str_replace('&lang=enus&format=rss_200','',   $trim);
+            $user = str_replace('&lang=enus&format=rss_200','',$this->feed);
             $atom_data.='     ';
             return $atom_data;
         }
