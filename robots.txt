@@ -3,5 +3,5 @@
 
 User-agent: *
 Disallow: /~* # block user web directories
-#Crawl-delay: 60 # slow bots down
+Crawl-delay: 60 # slow bots down
 #Disallow: /*.pdf$ # block PDFs
