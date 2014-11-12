@@ -18,7 +18,7 @@
         <h2>About Arch Women</h2>
         <p>The goal of Arch Women is to foster female involvement in Arch Linux 
         and Free Open Source Software. The community is open to female Linux 
-        enthusiasts and users, and to the men who support them. If you would like 
+        enthusiasts and users, and to the people who support them. If you would like 
         to join us, please have a look at our community standards to get a feel 
         for how our community is run.</p>
         <p>Arch Women has a monthly IRC meeting on the first Sunday of every month. 
