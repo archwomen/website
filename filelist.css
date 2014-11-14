@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,400,600);
+body, html {
+	background: #333;
+	margin:0;
+}
+html {
+	font-family: Raleway, Verdana, 'Helvetica Neue', Helvetica, sans-serif;
+	color: #CCC;
+	font-weight: 400;
+}
+h2 {
+	background: #222;
+	font-weight: 200;
+	font-size: 3.3em;
+	margin: .4em .4em .1em .4em;
+	padding: .5em;
+}
+table {
+	width:100%;
+}
+div.list {
+	padding: 1.3em;;
+}
+thead {
+	font-size:1.3em;
+	text-align: left;
+	background:#222;
+}
+tbody {
+	background:#2a2a2a;
+}
+th {
+	padding: .5em 3em .5em 1.5em;
+}
+td {
+	padding: .8em .8em .8em 2em
+}
+.foot {
+	color: #777;
+	padding: .5em 0em 1.5em 0em;
+	text-align: center;
+}
+tr:hover { background: #222; }
+a:link, a:visited {
+	color: #1793d1;
+	text-decoration: none;
+}
+a:hover {
+	color:#fff;
+}
