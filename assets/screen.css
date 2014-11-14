@@ -131,7 +131,9 @@ header.main img {
 article {
 	margin: 2em;
 }
-
+ol ul, ul ol, ul ul, ol ol {
+    padding-left: 1em;
+}
 /* Main Site Footer */
 footer.main {
 	background: #2a2a2a;
