@@ -48,3 +48,8 @@ a:link, a:visited {
 a:hover {
 	color:#fff;
 }
+pre {
+    margin: 1.3em;
+    background: #222;
+    padding: 1.3em;
+}
