@@ -49,6 +49,7 @@ a:hover {
 	color:#fff;
 }
 pre {
+    font-family: "Liberation Mono", "DejaVu Sans Mono", "Droid Sans Mono", "Inconsolata";
     margin: 1.3em;
     background: #222;
     padding: 1.3em;
