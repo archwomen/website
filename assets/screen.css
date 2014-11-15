@@ -121,7 +121,10 @@ nav.main ul, li {
 nav.main li {
     list-style: none;
     display: inline;
-} 
+}
+#currentpage a:link {
+    color: #fff;
+}
 header.main img {
 	float: left;
 	margin-top: .5em
