@@ -2,8 +2,8 @@
   $title = "Contact";
   include $_SERVER['DOCUMENT_ROOT']."/inc/header.php";
 ?>
-      <article>
-        <h2>Contact</h2>
+      <article role="main">
+        <h2 role="heading">Contact</h2>
         <form method="post" action="email.php">
           Email: <input name="email" id="email" type="text" /><br />
           Message:<br />

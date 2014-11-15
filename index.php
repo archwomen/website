@@ -4,8 +4,8 @@
     <div class="grid grid-pad">
       <div class="col-1-2">
         <div class="content">
-          <h2>Welcome!</h2>
-          <img class="left" src="assets/images/ArchW.png">
+          <h2 role="heading">Welcome!</h2>
+          <img alt="W icon" class="left" src="assets/images/ArchW.png">
           <p class="justify">You've reached the site for the Arch Linux Women project. 
           Arch Linux Women (Arch Women or A-W for short) is an all inclusive 
           organization of Arch Linux enthusiasts with a focus on helping more
@@ -18,7 +18,7 @@
       </div>
       <div class="col-1-2">
         <div class="content">
-          <h2>Get Involved</h2>
+          <h2 role="heading">Get Involved</h2>
           <ul class="left">
             <li>
               <a href="/join">Join</a>
@@ -48,7 +48,7 @@
     <div class="grid grid-pad">
       <div class="col-1-2">
         <div class="content">
-          <h2>Projects</h2> 
+          <h2 role="heading">Projects</h2> 
           <h3><a href="https://wiki.archlinux.org/index.php/Classroom">Classroom</a></h3>
           <p>Arch Linux Classroom is a project to develop and host 
           teaching materials that can be used by the wider Arch Linux 

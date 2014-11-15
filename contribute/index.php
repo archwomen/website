@@ -2,8 +2,8 @@
   $title = "Contribute";
   include $_SERVER['DOCUMENT_ROOT']."/inc/header.php";
 ?>
-      <article>
-        <h2>Contribute to Arch Linux Women</h2>
+      <article role="main">
+        <h2 role="heading">Contribute to Arch Linux Women</h2>
         <p>Arch Linux Women is community driven, and without contributions, the project will die. Even small 
         contributions add up to something great, so please get involved where you can. There are a ton of ways 
         that both new and old members can contribute, and you don't have to be a programmer or have large amounts
