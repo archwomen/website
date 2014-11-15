@@ -122,7 +122,7 @@ nav.main li {
     list-style: none;
     display: inline;
 }
-#currentpage a:link {
+#currentpage a {
     color: #fff;
 }
 header.main img {
