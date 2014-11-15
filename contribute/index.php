@@ -51,4 +51,4 @@
         <h3>Help with Software Developement</h3>
         <h3>Sponsor us</h3>
       </article>
-<?php $_SERVER['DOCUMENT_ROOT']."/inc/footer.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT']."/inc/footer.php"; ?>
