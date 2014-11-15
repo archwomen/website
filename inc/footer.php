@@ -15,7 +15,7 @@
         <div class="col-1-3">
           <div class="content">
             <h3>Sponsors</h3>
-            <p><a href="https://www.digitalocean.com/"><img src="/assets/images/logos/digitalocean.png"></a></p>
+            <p><a href="https://www.digitalocean.com/"><img width="140" height="39" alt="digital ocean" src="/assets/images/logos/digitalocean.png"></a></p>
             <p>Please <a href="/contact">contact us</a> if you are interested in being a sponsor.</p>
           </div>
         </div>

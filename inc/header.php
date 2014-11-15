@@ -21,7 +21,7 @@
   </head>
   <body>
   <header class="main">
-    <a href="/"><img src="/assets/images/archwomen.png"></a>
+    <a href="/"><img width="196" height="65" src="/assets/images/archwomen.png"></a>
     <nav class="main">
       <ul>
         <li<?php if (basename(dirname($_SERVER['SCRIPT_FILENAME']))=="about") echo " id=\"currentpage\""; ?>><a href="/about">About</a></li>
