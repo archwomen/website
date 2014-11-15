@@ -20,9 +20,9 @@
     <link rel="stylesheet" type="text/css" media="print" href="/assets/print.css">
   </head>
   <body>
-  <header class="main">
-    <a href="/"><img width="196" height="65" src="/assets/images/archwomen.png"></a>
-    <nav class="main">
+  <header class="main" role="banner">
+    <a href="/"><img alt="home" width="196" height="65" src="/assets/images/archwomen.png"></a>
+    <nav class="main" role="navigation">
       <ul>
         <li<?php if (basename(dirname($_SERVER['SCRIPT_FILENAME']))=="about") echo " id=\"currentpage\""; ?>><a href="/about">About</a></li>
         <li<?php if (basename(dirname($_SERVER['SCRIPT_FILENAME']))=="join") echo " id=\"currentpage\""; ?>><a href="/join">Join</a></li>
