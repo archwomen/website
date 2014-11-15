@@ -1,13 +1,14 @@
-# Main Arch Women website located at archwomen.org
+# Main Arch Women website
 
-This is the main website for the Arch Linux Women project. The website is
-HTML5/CSS3 and built with PHP as the backend.
+This is the main website for the Arch Linux Women project hosted at
+http://archwomen.org. The website is HTML5/CSS3 and built with PHP as the backend.
 
 ## Special Directories
 
 ###assets
 
-This directory holds css files and images for the site
+This directory holds css files and images for the site. There is a special file
+called template.txt that can be used to create new pages.
 
 ###inc
 
