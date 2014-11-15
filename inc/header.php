@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" type="text/css" media="all" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/screen.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/screen.min.css">
     <link rel="stylesheet" type="text/css" media="print" href="/assets/print.css">
   </head>
   <body>
