@@ -23,7 +23,7 @@
             <li>
               <a href="/join">Join</a>
               <ul>
-                <li><a href=/join/#women">Women</a></li>
+                <li><a href="/join/#women">Women</a></li>
                 <li><a href="/join/#ally">Allies</a></li>
               </ul>
             </li>
@@ -54,7 +54,8 @@
           teaching materials that can be used by the wider Arch Linux 
           community. Arch Women is hosting a package building class to 
           help increase contributions to Arch Linux.</p>
-          <h3>Internship</h3>
+          <h3><a href="https://archwomen.org/wiki/projects:internships:start">Internship</a></h3>
+          <p>Internships to work on Arch Linux development: GSoC, OPW.</p>
           <h3>Mentor Connection</h3>
         </div>
       </div>
