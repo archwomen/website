@@ -21,8 +21,6 @@
         </div>
         <div class="col-1-3">
           <div class="content">
-            <h3>Subscribe</h3>
-            <p>Subscribe to our mailing list</p>
             <h3 style="margin-bottom:0">Donate</h3>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
               <span>Arch Women runs off <del>love</del></span>

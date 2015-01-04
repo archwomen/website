@@ -35,7 +35,6 @@
               <a href="/contribute">Contribute to the project</a>
               <ul>
                 <li><a href="/blog">Blog</a></li>
-                <li><a href="/redmine">Project Manager</a></li>
                 <li><a href="/wiki">Wiki</a></li>
                 <li>Teach</li>
                 <li><a href="https://github.com/archwomen">Github</a></li>
