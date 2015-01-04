@@ -89,6 +89,7 @@ blockquote {
     border-left: solid 2px #1793d1;
 }
 img {
+	border: 0;
 	margin-right: .5em;
     margin-bottom: .5em;
 }
