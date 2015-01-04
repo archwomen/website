@@ -49,12 +49,16 @@
         <div class="content">
           <h2 role="heading">Projects</h2> 
           <h3><a href="https://wiki.archlinux.org/index.php/Classroom">Classroom</a></h3>
-          <p>Arch Linux Classroom is a project to develop and host 
-          teaching materials that can be used by the wider Arch Linux 
-          community. Arch Women is hosting a package building class to 
-          help increase contributions to Arch Linux.</p>
+          <p>
+            Arch Linux Classroom is a project to develop and host classes and
+            teaching materials that can be used by the Arch Linux community.
+            <a href="https://wiki.archlinux.org/index.php/Classroom">Read more!</a>
+          </p>
           <h3><a href="https://archwomen.org/wiki/projects:internships:start">Internship</a></h3>
-          <p>Internships to work on Arch Linux development: GSoC, OPW.</p>
+          <p>
+            Internships to work on Arch Linux development: GSoC, OPW.
+            <a href="https://archwomen.org/wiki/projects:internships:start">Read more!</a>
+          </p>
           <h3>Mentor Connection</h3>
         </div>
       </div>
