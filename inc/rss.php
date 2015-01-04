@@ -9,7 +9,7 @@
                         $rss_split = array();
                         foreach ($rss->channel->item as $item) {
                                 $title = (string) $item->title; // Title
-                                $link   = (string) $item->link; // Url Link
+                                $link   = htmlspecialchars((string) $item->link); // Url Link
                                 $rss_split[] = '<p><a href="'.$link.'" target="_blank">'.$title.'</a></p>';
                         }
                         return $rss_split;
@@ -37,7 +37,7 @@
             $atom_split = array();
                 foreach ($atom->entry as $entry) {
                     $title = (string) $entry->title; // Title
-                    $link   = (string) $entry->id; // Url Link
+                    $link   = htmlspecialchars((string) $entry->id); // Url Link
                     $atom_split[] = '<p><a href="'.$link.'" target="_blank">'.$title.'</a></p>';
                 }
                 return $atom_split;
