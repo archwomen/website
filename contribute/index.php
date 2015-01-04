@@ -29,19 +29,18 @@
           <input type="image" src="https://archwomen.org/assets/images/icons/coffee.png" name="submit" alt="PayPal - The safer, easier way to pay online!">
           <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>
-        <p>Current Costs:
+        <h4>Current Costs:</h4>
           <ul>
             <li>Domain Name: $10/year</li>
             <li>SSL certificate: $9.50/year</li>
           </ul>
-          Projects we need funded:
+        <h4>Projects we need funded:</h4>
           <ul>
             <li>Student Outreach: $500/year</li>
             <li>Internship Program: $3000/year</li>
             <li>Conventions: $5000/year</li>
             <li>Install Party: $1000/year</li>
           </ul>
-        </p>
         <h3>Join our mailinglist</h3>
         <h3>Contribute to the Wiki</h3>
         <h3>Submit a blog post</h3>
