@@ -106,8 +106,11 @@ article {
 section {
     padding: 0 1em 0 1em;
 }
-h2 {
+h2, h3, h4 {
     margin: .3em;
+}
+p {
+    margin: .5em;
 }
 ol ul, ul ol, ul ul, ol ol {
     padding-left: 1em;
