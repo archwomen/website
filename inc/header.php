@@ -30,7 +30,6 @@
         <li<?php if (basename(dirname($_SERVER['SCRIPT_FILENAME']))=="community-standards") echo " id=\"currentpage\"";?>><a href="/community-standards">Community Standards</a></li>
         <li<?php if (basename(dirname($_SERVER['SCRIPT_FILENAME']))=="blog") echo " id=\"currentpage\""; ?>><a href="/blog">Blog</a></li>
         <li<?php if (basename(dirname($_SERVER['SCRIPT_FILENAME']))=="wiki") echo " id=\"currentpage\""; ?>><a href="/wiki">Wiki</a></li>
-        <li<?php if (basename(dirname($_SERVER['SCRIPT_FILENAME']))=="wiki/resources") echo " id=\"currentpage\""; ?>><a href="/wiki/resources">Resources</a></li>
         <li<?php if (basename(dirname($_SERVER['SCRIPT_FILENAME']))=="contact") echo " id=\"currentpage\""; ?>><a href="/contact">Contact</a></li>
       </ul>
     </nav>
