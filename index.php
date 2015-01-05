@@ -35,13 +35,22 @@
       <section class="col-1-2">
         <h2 role="heading">Projects</h2> 
         <h3><a href="https://wiki.archlinux.org/index.php/Classroom">Classroom</a></h3>
-        <p>Arch Linux Classroom is a project to develop and host classes and
-        teaching materials that can be used by the Arch Linux community.
-        <a href="https://wiki.archlinux.org/index.php/Classroom">Read&nbsp;more!</a></p>
+        <p>
+          Arch Linux Classroom is a project to develop and host classes and
+          teaching materials that can be used by the Arch Linux community.
+          <a href="https://wiki.archlinux.org/index.php/Classroom">Read&nbsp;more</a>
+        </p>
         <h3><a href="https://archwomen.org/wiki/projects:internships:start">Internship</a></h3>
-        <p>Internships to work on Arch Linux development: GSoC, OPW.
-        <a href="https://archwomen.org/wiki/projects:internships:start">Read&nbsp;more!</a></p>
-        <h3>Mentor Connection</h3>
+        <p>
+          Internships to work on Arch Linux development: GSoC, OPW.
+          <a href="https://archwomen.org/wiki/projects:internships:start">Read&nbsp;more</a>
+        </p>
+        <h3><a bref="https://archwomen.org/wiki/projects:mentorship:start">Mentor connection</a></h3>
+        <p>
+          Our goal here is to help people find a mentor who can guide them on the 
+          way of the Arch Linux contributor.
+          <a href="https://archwomen.org/wiki/projects:mentorship:start">Read&nbsp;more</a>
+        </p>
       </section>
       <?php
         include('inc/rss.php');
