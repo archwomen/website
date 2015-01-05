@@ -42,7 +42,7 @@
            <li>yar</li>
            <li>fsckd</li>
         </ul>
-      <h2>Project Afiliations</h2>
+      <h2>Project Affiliations</h2>
       <ul>
         <li>Ubuntu Women</li>
         <li>Linux Chix</li>
