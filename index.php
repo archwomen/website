@@ -47,8 +47,8 @@
         </p>
         <h3><a href="https://archwomen.org/wiki/projects:mentorship:start">Mentor connection</a></h3>
         <p>
-          Our goal here is to help people find a mentor who can guide them on the 
-          way of the Arch Linux contributor.
+          Our goal here is to help people find a mentor who can help 
+          with specialist knowledge.
           <a href="https://archwomen.org/wiki/projects:mentorship:start">Read&nbsp;more</a>
         </p>
       </section>
