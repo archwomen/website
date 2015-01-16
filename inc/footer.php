@@ -25,11 +25,13 @@
         <p><a href="https://lists.archlinux.org/listinfo/arch-women">Subscribe</a> to our mailing list</p>
         <h3 style="margin-bottom:0">Donate</h3>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-          <span>Arch Women runs off <del>love</del></span>
-          <input type="hidden" name="cmd" value="_s-xclick">
-          <input type="hidden" name="hosted_button_id" value="ADCGV6K9VK2MJ">
-          <input type="image" alt="coffee" src="https://archwomen.org/assets/images/icons/coffee.png" name="submit">
-          <img alt="PayPal - The safer, easier way to pay online!" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          <p>
+            <span>Arch Women runs off <del>love</del></span>
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="ADCGV6K9VK2MJ">
+            <input type="image" alt="coffee" src="https://archwomen.org/assets/images/icons/coffee.png" name="submit">
+            <img alt="PayPal - The safer, easier way to pay online!" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </p>
         </form>
       </section>
     </footer>
