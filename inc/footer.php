@@ -21,6 +21,8 @@
         </p>
       </section>
       <section class="col-3-3">
+        <h3>Mailing list</h3>
+        <p><a href="https://lists.archlinux.org/listinfo/arch-women">Subscribe</a> to our mailing list</p>
         <h3 style="margin-bottom:0">Donate</h3>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <span>Arch Women runs off <del>love</del></span>
