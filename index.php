@@ -4,7 +4,7 @@
     <article class="clearfix" role="main">
       <section class="col-1-2">
         <h2 role="heading">Welcome!</h2>
-        <img alt="W icon" class="left" src="assets/images/ArchW.png">
+        <img width="100" height="66" alt="W icon" class="left" src="assets/images/ArchW.png">
         <p>
           Arch Linux Women (Arch Women or A-W for short) is an all inclusive 
           organization of Arch Linux enthusiasts with a focus on helping more 
