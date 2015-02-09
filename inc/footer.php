@@ -28,12 +28,12 @@
           <p style="margin-top:0">
             <span>Arch Women runs off <del>love</del></span>
             <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="ADCGV6K9VK2MJ">
+            <input type="hidden" name="hosted_button_id" value="PGCY3UUYM3VUW">
             <input type="image" alt="coffee" src="https://archwomen.org/assets/images/icons/coffee.png" name="submit">
             <img alt="PayPal - The safer, easier way to pay online!" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
           </p>
         </form>
-      </section>
+     </section>
     </footer>
   </body>
 </html>
