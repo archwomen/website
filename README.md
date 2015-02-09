@@ -28,3 +28,19 @@ specification that helps increase the accessibility of webpages to screen reader
 users and those who cannot use pointing devices. The main website uses WAI-ARIA
 roles on HTML elements. Further information is available at:
 http://www.w3.org/TR/wai-aria-practices/
+
+Here are a few common roles used:
+
+* banner - Site-orientated content, such as the name of the web site, title of the page,
+and/or the logo.
+* navigation - The area that contains the navigation links for the document or web site.
+* main - The main or central content of the document.
+* search - This section contains the search functionality for the site.
+* article - Stand-alone content that makes sense out of context from the rest of 
+the document. Examples might be a blog posting, a comment on a blog, a forum post,
+etc. Specifically, a blog posting might be identified as an article and
+individual blog comments might also be marked up with a role of article within
+that blog posting.
+* complementary - Supporting content for the main content
+* contentinfo - Informational child content, such as footnotes, copyrights, links to privacy
+statement, links to preferences, and so on.
