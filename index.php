@@ -38,18 +38,15 @@
         <p>
           Arch Linux Classroom is a project to develop and host classes and
           teaching materials that can be used by the Arch Linux community.
-          <a href="https://wiki.archlinux.org/index.php/Classroom">Read&nbsp;more</a>
         </p>
         <h3><a href="https://archwomen.org/wiki/projects:internships:start">Internship</a></h3>
         <p>
           Internships to work on Arch Linux development: GSoC, OPW.
-          <a href="https://archwomen.org/wiki/projects:internships:start">Read&nbsp;more</a>
         </p>
         <h3><a href="https://archwomen.org/wiki/projects:mentorship:start">Mentor connection</a></h3>
         <p>
           Our goal here is to help people find a mentor who can help 
           with specialist knowledge.
-          <a href="https://archwomen.org/wiki/projects:mentorship:start">Read&nbsp;more</a>
         </p>
       </section>
       <?php
