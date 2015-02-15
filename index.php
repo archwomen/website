@@ -55,8 +55,8 @@
         $feedlist = new atom('https://archwomen.org/blog/feed.atom');
         echo '<section class="col-2-2">', $feedlist->display(6,"<h2>Blog</h2>"), '<p><a href="https://archwomen.org/blog/">Read more</a></p></section></article>';
 
-        $feedlist = new rss('https://archwomen.org/calendar//rss/rss2.0.php?cal=&cpath=&rssview=month');
-        echo '<article class="clearfix"><section class="col-1-2">', $feedlist->display(4,"<h2>Upcoming Events</h2>"), '</section>';
+        //$feedlist = new rss('https://archwomen.org/calendar//rss/rss2.0.php?cal=&cpath=&rssview=month');
+        //echo '<article class="clearfix"><section class="col-1-2">', $feedlist->display(4,"<h2>Upcoming Events</h2>"), '</section>';
 
         //$feedlist = new atom('https://archwomen.org/news/?type=atom10');
         //echo '<section class="col-2-2">', $feedlist->display(4,"<h2>Community News</h2>"), '<p><a href="https://archwomen.org/news/">Read more</a></p></section></article>';
