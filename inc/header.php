@@ -15,6 +15,13 @@
     <meta name="keywords" lang="en-us" content="linux, arch linux, women, arch women, technology, programming, feminism">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="shortcut icon" href="/favicon.ico">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://archwomen.org">
+    <meta property="og:title" content="Arch Linux Women">
+    <meta property="og:description" content="An organization that aims to increase female involvement in Arch Linux and free software.">
+    <meta property="og:image" content="https://archwomen.org/assets/images/ArchW.png">
+
     <link rel="stylesheet" type="text/css" media="all" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/screen.min.css">
     <link rel="stylesheet" type="text/css" media="print" href="/assets/print.css">
