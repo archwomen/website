@@ -69,7 +69,7 @@ img {
 #hidden {
     display: none;
 }
-form > input, form > textarea, form > select {
+input, textarea, select {
   border: solid 1px #222;
   background: #222;
   color: #efefef;
