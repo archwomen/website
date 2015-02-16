@@ -25,6 +25,11 @@
     <link rel="stylesheet" type="text/css" media="all" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/screen.min.css">
     <link rel="stylesheet" type="text/css" media="print" href="/assets/print.css">
+    <?php 
+      if (isset($custom)) {
+        echo "$custom";
+      }
+    ?>
   </head>
   <body>
   <header class="main" role="banner">
