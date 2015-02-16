@@ -69,10 +69,18 @@ img {
 #hidden {
     display: none;
 }
-input, textarea, select {
-  border: solid 1px #111;
-  background: #111;
+form > input, form > textarea, form > select {
+  border: solid 1px #222;
+  background: #222;
   color: #efefef;
+  padding: .8em;
+}
+button {
+  background-color: #1793d1;
+  border: 4px solid #1793d1;
+  color: white;
+  font-weight: bold;
+  font-size: .8em;
 }
 /* Main Site Header */ 
 header.main, footer.main {
