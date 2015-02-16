@@ -3,7 +3,7 @@
   $custom = "<style>form{margin-top:1.3em;}.form-inline .form-group {display: inline-block;margin-bottom: 0;vertical-align: middle;}</style><link rel='stylesheet' href='odometer-theme-default.css'>";
   include $_SERVER['DOCUMENT_ROOT']."/inc/header.php";
 ?>
-      <article role="main">
+      <article role="main" style="text-align:center;">
         <h2>We currently need<strong class="animation"> $<span class="odometer odometer-auto-theme">50</span></strong> to reach
             our goal of $50 for the year.
         </h2>
@@ -39,7 +39,7 @@
           <button type="submit" class="btn btn-default">Donate Now</button>
         </form>
       </article>
-      <article id="donations" class="donations">
+      <article id="donations" class="donations" style="text-align:center;">
         <h3>Thank you to all of our doners, we are grateful for your support.</h3>
         <ol id="donationList"></ol>
       </article>
