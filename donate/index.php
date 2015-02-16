@@ -1,6 +1,6 @@
 <?php
   $title = "Community Standards";
-  $custom = "<style>form{margin-top:1.3em;}.form-inline .form-group {display: inline-block;margin-bottom: 0;vertical-align: middle;}</style><link rel='stylesheet' href='odometer-theme-default.css'>";
+  $custom = "<style>.form-inline .form-group {display: inline-block;margin-bottom: 0;vertical-align: middle;}</style><link rel='stylesheet' href='odometer-theme-default.css'>";
   include $_SERVER['DOCUMENT_ROOT']."/inc/header.php";
 ?>
       <article role="main" style="text-align:center;">
@@ -11,7 +11,7 @@
             going. Your donation will help pay for our hosting costs and the
             services we provide for Arch Linux users.
         </h3>
-        <form class="form-inline" role="form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <form class="form-inline" style="margin-top:1.3em;" role="form" action="https://www.paypal.com/cgi-bin/webscr" method="post">
           <div class="form-group">
             <div class="input-group">
               <input type="text" class="form-control" name="item_name" placeholder="nickname or message">
