@@ -4,9 +4,9 @@
   include $_SERVER['DOCUMENT_ROOT']."/inc/header.php";
 ?>
       <article role="main">
-        <h1>We currently need<strong class="animation"> $<span class="odometer odometer-auto-theme">50</span></strong> to reach
+        <h2>We currently need<strong class="animation"> $<span class="odometer odometer-auto-theme">50</span></strong> to reach
             our goal of $50 for the year.
-        </h1>
+        </h2>
         <h3>It takes people like you to keep our organization
             going. Your donation will help pay for our hosting costs and the
             services we provide for Arch Linux users.
@@ -40,7 +40,7 @@
         </form>
       </article>
       <article id="donations" class="donations">
-        <h3>We are very grateful for your support.</h3>
+        <h3>Thank you to all of our doners, we are grateful for your support.</h3>
         <ol id="donationList"></ol>
       </article>
       <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
