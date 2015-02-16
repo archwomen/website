@@ -1,5 +1,5 @@
 <?php
-  $title = "Community Standards";
+  $title = "Donate";
   $custom = "<style>.form-inline .form-group {display: inline-block;margin-bottom: 0;vertical-align: middle;}</style><link rel='stylesheet' href='odometer-theme-default.css'>";
   include $_SERVER['DOCUMENT_ROOT']."/inc/header.php";
 ?>
