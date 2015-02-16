@@ -1,6 +1,6 @@
 <?php
   $title = "Community Standards";
-  $custom = "<link rel='stylesheet' href='odometer-theme-default.css'>"
+  $custom = "<link rel='stylesheet' href='odometer-theme-default.css'>";
   include $_SERVER['DOCUMENT_ROOT']."/inc/header.php";
 ?>
       <article role="main">
