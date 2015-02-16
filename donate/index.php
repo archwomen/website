@@ -40,7 +40,7 @@ $custom = "<style>#donationList{-moz-column-count:3;-webkit-column-count:3;colum
         </form>
       </article>
       <article id="donations" class="donations">
-        <h3 style="text-align:center;">Thank you to all of our doners, we are grateful for your support.</h3>
+        <h3 style="text-align:center;">Thank you to all of our donors, we are grateful for your support.</h3>
         <ol id="donationList"></ol>
       </article>
       <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
