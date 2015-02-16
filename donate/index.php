@@ -1,6 +1,6 @@
 <?php
   $title = "Donate";
-  $custom = "<style>.form-inline .form-group {display: inline-block;margin-bottom: 0;vertical-align: middle;}</style><link rel='stylesheet' href='odometer-theme-default.css'>";
+$custom = "<style>#donationList{-moz-column-count:3;-webkit-column-count:3;column-count:3;}.form-inline .form-group {display: inline-block;margin-bottom: 0;vertical-align: middle;}</style><link rel='stylesheet' href='odometer-theme-default.css'>";
   include $_SERVER['DOCUMENT_ROOT']."/inc/header.php";
 ?>
       <article role="main" style="text-align:center;">
