@@ -39,8 +39,8 @@
           <button type="submit" class="btn btn-default">Donate Now</button>
         </form>
       </article>
-      <article id="donations" class="donations" style="text-align:center;">
-        <h3>Thank you to all of our doners, we are grateful for your support.</h3>
+      <article id="donations" class="donations">
+        <h3 style="text-align:center;">Thank you to all of our doners, we are grateful for your support.</h3>
         <ol id="donationList"></ol>
       </article>
       <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
