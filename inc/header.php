@@ -23,6 +23,7 @@
     <meta property="og:image" content="https://archwomen.org/assets/images/ArchW.png">
 
     <link rel="stylesheet" type="text/css" media="all" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic">
     <link rel="stylesheet" type="text/css" media="screen" href="/assets/screen.min.css">
     <link rel="stylesheet" type="text/css" media="print" href="/assets/print.css">
     <?php 

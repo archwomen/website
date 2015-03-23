@@ -32,7 +32,7 @@
 /* Global Site Settings */
 body {
     margin: .5em;
-    font-family: Verdana, "Droid Sans", Arial, Helvetica;
+    font-family: "Source Sans Pro", Verdana, "Droid Sans", Arial, Helvetica;
     color: #CCCCCC;
     background-color: #333;
     text-rendering: optimizeLegibility;
