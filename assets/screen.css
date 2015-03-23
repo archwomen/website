@@ -144,6 +144,9 @@ nav.blog {
 }
 
 /* Community News */
+#content {
+  margin: 0em 2em 2em 2em;
+}
 .feed {
   background: #2a2a2a;
   padding: .5em 1em .5em 1em;
