@@ -39,7 +39,7 @@
       <?php
         $next = (int) $page + 1;
         $prev = (int) $page - 1;
-        $nextlink = '<a href="?page=' . $next . '>' . $next . '</a> <a href="?page=' . $next . '">Next &raquo;</a>';
+        $nextlink = '<a href="?page=' . $next . '">' . $next . '</a> <a href="?page=' . $next . '">Next &raquo;</a>';
         if ($next > $max) {
           $nextlink = ' Next &raquo; ';
         }
