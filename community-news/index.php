@@ -44,10 +44,10 @@
           $nextlink = ' Next &raquo; ';
         }
         $prevlink = '<a href="?start=' . $prev . '"> &laquo; Previous </a>';
-        if ($prev < 1 && (int) $page > 0) {
+        if ($prev <= 1 && (int) $page > 1) {
           $prevlink = '<a href="?start=1">&laquo; Previous </a>';
         }
-        else if ($prev < 1) {
+        else if ($prev <= 0) {
           $prevlink = '&laquo; Previous ';
         }
         echo '<p>' . $prevlink . $nextlink . '</p>';
