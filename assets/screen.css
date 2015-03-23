@@ -143,6 +143,11 @@ nav.blog {
     display: inline;
 }
 
+/* Community News */
+.feed {
+  background: #2a2a2a;
+  padding: .5em 1em .5em 1em;
+}
 /* Change Format on Small Screens */
 @media only screen and (max-width: 740px) {
     .col-1-2, .col-2-2,

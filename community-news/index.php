@@ -12,7 +12,7 @@
     <div id="content">
       <h2 role="heading">Community News</h2>
       <?php foreach ($feed->get_items(0, 20) as $item): ?>
-        <article>
+        <article class="feed">
         <?php
           if ($item->get_permalink()) echo '<a href="' . $item->get_permalink() . '">';
           echo '<h3>' . $item->get_title(true) . '</h3>';
