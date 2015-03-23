@@ -39,7 +39,7 @@
       <?php
         $next = (int) $page + 1;
         $prev = (int) $page - 1;
-        $nextlink = '<a href="?page=' . $next . '">' . $next . '</a> <a href="?page=' . $next . '">Next &raquo;</a>';
+        $nextlink = '<a href="?page=' . $next . '"> ' . $next . ' </a><a href="?page=' . $next . '">Next &raquo;</a>';
         if ($next > $max) {
           $nextlink = ' Next &raquo; ';
         }
@@ -50,7 +50,7 @@
         else if ($prev <= 0) {
           $prevlink = '&laquo; Previous ';
         }
-        echo '<p>' . $prevlink . '<span id="page">' . $page . '</span>' . $nextlink . '</p>';
+        echo '<p class="center">' . $prevlink . '<span id="page">' . $page . '</span>' . $nextlink . '</p>';
       ?>
     </div>
 <?php include $_SERVER['DOCUMENT_ROOT']."/inc/footer.php"; ?>
