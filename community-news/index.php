@@ -7,6 +7,7 @@
   $feed = new SimplePie();
   $feed->set_feed_url($urls);
   $feed->set_cache_location($_SERVER['DOCUMENT_ROOT'] . '/community-news/cache');
+  $feed->set_cache_duration(14400);
   $feed->enable_cache();
   $feed->init();
 
@@ -16,7 +17,6 @@
   $page = (isset($_GET['page']) && !empty($_GET['page'])) ? $_GET['page'] : 1;
   if (!$page || $page > $numPages) $page = 0;
   $start = ($page - 1) * $entries;
-
 ?>
     <div id="content">
       <h2 role="heading">Community News</h2>
