@@ -43,9 +43,9 @@
         if ($next > $max) {
           $nextlink = ' Next &raquo; ';
         }
-        $prevlink = '<a href="?start=' . $prev . '"> &laquo; Previous </a><a href="?start=' . $prev . '">' . $prev . '</a>';
+        $prevlink = '<a href="?start=' . $prev . '"> &laquo; Previous </a><a href="?start=' . $prev . '">' . $prev . ' </a>';
         if ($prev <= 1 && (int) $page > 1) {
-          $prevlink = '<a href="?start=1">&laquo; Previous </a>';
+          $prevlink = '<a href="?page=1">&laquo; Previous </a><a href="?page=1">1</a>';
         }
         else if ($prev <= 0) {
           $prevlink = '&laquo; Previous ';
