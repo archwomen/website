@@ -27,7 +27,7 @@
           See how you can <a href="/contribute">contribute</a> to the project!
         </p>
         <p>
-          We are also looking for sponsors and donations.
+          We are also looking for sponsors and <a href="/donate">donations</a>.
         </p>
       </section>
     </article>
