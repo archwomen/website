@@ -17,3 +17,5 @@ http://blog.nerdchic.net/feed/
 http://girldevelopit.tumblr.com/rss
 http://www.greenlightforgirls.org/g4g-blog?format=rss
 http://www.girlsintech.org/feed
+http://ladiesintech.com/feed/
+http://feeds.feedburner.com/wtrogg
