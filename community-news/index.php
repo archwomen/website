@@ -12,7 +12,7 @@
 
   $max = $feed->get_item_quantity();
   $entries = 6; //entries per page
-  $numPages = $max / $entries);
+  $numPages = ($max / $entries);
   $page = (isset($_GET['page']) && !empty($_GET['page'])) ? $_GET['page'] : 1;
   if (!$page || $page > $numPages) $page = 0;
   $start = ($page - 1) * $entries;
