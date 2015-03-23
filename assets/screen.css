@@ -35,6 +35,15 @@ body {
     font-family: Verdana, "Droid Sans", Arial, Helvetica;
     color: #CCCCCC;
     background-color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -moz-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern=1";
+    -ms-font-feature-settings: "kern";
+    -o-font-feature-settings: "kern";
+    -webkit-font-feature-settings: "kern";
+    font-feature-settings: "kern";
 }
 .clear {
     clear: both;
