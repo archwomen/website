@@ -7,7 +7,7 @@
         <a href="https://github.com/archwomen"><img alt="github" class="icon" src="/assets/images/icons/github.png"></a>
         <a href="https://plus.google.com/104352270333357228007" rel="publisher">G+</a>
         <p>Join us on <a href="http://freenode.net/">irc.freenode.net</a> in 
-        <a href="http://webchat.freenode.net/?channels=archlinux-women">#archlinux-women</a></p>
+        <a href="https://kiwiirc.com/client/irc.freenode.net/#archlinux-women">#archlinux-women</a></p>
       </section>
       <section class="col-2-3">
         <h3>Sponsors</h3>
