@@ -6,7 +6,8 @@
   $urls = file('urls.txt');
   $feed = new SimplePie();
   $feed->set_feed_url($urls);
-  //$feed->enable_cache();
+  $feed->set_cache_location($_SERVER['DOCUMENT_ROOT'] . '/community-news/cache');
+  $feed->enable_cache();
   $feed->init();
 ?>
     <div id="content">

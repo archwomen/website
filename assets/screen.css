@@ -66,6 +66,9 @@ img {
 .justify {
     text-align: justify;
 }
+.center {
+  text-align: center;
+}
 #hidden {
     display: none;
 }
@@ -145,7 +148,7 @@ nav.blog {
 
 /* Community News */
 #content {
-  margin: 0em 2em 2em 2em;
+  margin: 2em;
 }
 .feed {
   background: #2a2a2a;
