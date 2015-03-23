@@ -35,6 +35,8 @@ body {
     font-family: Verdana, "Droid Sans", Arial, Helvetica;
     color: #CCCCCC;
     background-color: #333;
+    text-rendering: optimizeLegibility;
+    font-variant-ligatures: common-ligatures;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     font-smoothing: antialiased;
