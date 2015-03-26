@@ -39,11 +39,11 @@
       <?php
         $next = (int) $page + 1;
         $prev = (int) $page - 1;
-        $nextlink = '<a href="?page=' . $next . '"> ' . $next . ' </a><a href="?page=' . $next . '">Next &raquo;</a>';
+        $nextlink = '<a href="?page=' . $next . '"> ' . $next . ' </a> <a href="?page=' . $next+1 . '"> ' . $next+1 . ' </a><a href="?page=' . $next . '">Next &raquo;</a>';
         if ($next > $max) {
           $nextlink = ' Next &raquo; ';
         }
-        $prevlink = '<a href="?start=' . $prev . '"> &laquo; Previous </a><a href="?start=' . $prev . '">' . $prev . ' </a>';
+        $prevlink = '<a href="?start=' . $prev . '"> &laquo; Previous </a><a href="?page=' . $prev-1 . '">' . $prev-1 . '</a> <a href="?start=' . $prev . '">' . $prev . ' </a>';
         if ($prev <= 1 && (int) $page > 1) {
           $prevlink = '<a href="?page=1">&laquo; Previous </a><a href="?page=1">1 </a>';
         }
