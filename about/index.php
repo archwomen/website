@@ -3,7 +3,7 @@
   include $_SERVER['DOCUMENT_ROOT']."/inc/header.php";
 ?>
     <article role="main">
-      <h2 role="heading">About Arch Women</h2>
+      <h1 role="heading">About Arch Women</h1>
       <p>The goal of Arch Women is to foster female involvement in Arch Linux 
       and Free Open Source Software. The community is open to female Linux 
       enthusiasts and users, and to the people who support them. If you would like 
@@ -44,8 +44,8 @@
         </ul>
       <h2>Project Affiliations</h2>
       <ul>
-        <li>Ubuntu Women</li>
-        <li>Linux Chix</li>
+        <li><a href="http://wiki.ubuntu-women.org/">Ubuntu Women</a></li>
+        <li><a href="http://www.linuxchix.org/">Linux Chix</a></li>
       </ul>
     </article>
 <?php include $_SERVER['DOCUMENT_ROOT']."/inc/footer.php"; ?>
