@@ -31,9 +31,9 @@
 
 /* Global Site Settings */
 body {
-    margin: .5em;
+    margin:0;
     font-family: "Source Sans Pro", Verdana, "Droid Sans", Arial, Helvetica;
-    color: #CCCCCC;
+    color: #E9E9E9;
     background-color: #333;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -44,7 +44,10 @@ body {
     -ms-font-feature-settings: "kern";
     -o-font-feature-settings: "kern";
     -webkit-font-feature-settings: "kern";
-    font-feature-settings: "kern";
+    font-feature-settings: "kern"
+}
+main{
+    margin: .5em
 }
 .clear {
     clear: both;
@@ -96,40 +99,43 @@ button {
   font-size: .8em;
 }
 /* Main Site Header */ 
-header.main, footer.main {
-    background: #2a2a2a;
-    padding: .1em .5em .1em .5em;
+footer.main,
+header.main {
+    background: #2a2a2a
+}
+footer.main {
+    padding: .3em 2em 0;
+}
+header.main {
+    border-bottom: .2em solid #E7E7E7;
+    padding: 0 1em;
+}
+header.main img {
+    float: left
 }
 nav.main {
     text-align: right;
-    padding: 1em;
+    padding: .5em .7em
 }
-nav.main ul, li {
+nav.main ul li {
     padding-left: .5em;
     margin-left: .5em;
-}
-nav.main li {
     list-style: none;
     display: inline;
-}
-#currentpage a {
-    color: #fff;
-}
-header.main img {
-    float: left;
-    margin-top: .5em
+    font-size: .91em;
+    font-weight: bold;
 }
 
 /* Articles */
 article {
-    margin: 2em 0 2em 0;
-    padding: 0 2em 0 2em;
+    margin: 2em 0;
+    padding: 0 2em;
     display: inline-block;
     width: 100%;
     box-sizing: border-box;
 }
 section {
-    padding: 0 1em 0 1em;
+    padding: 0 1em;
 }
 h2, h3, h4 {
     margin: .3em;

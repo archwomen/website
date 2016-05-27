@@ -1,6 +1,7 @@
 <?php
   include $_SERVER['DOCUMENT_ROOT']."/inc/header.php";
 ?>
+  <main>
     <article class="clearfix" role="main">
       <section class="col-1-2">
         <h2 role="heading">Welcome!</h2>
@@ -61,4 +62,5 @@
         //$feedlist = new atom('https://archwomen.org/news/?type=atom10');
         //echo '<section class="col-2-2">', $feedlist->display(4,"<h2>Community News</h2>"), '<p><a href="https://archwomen.org/news/">Read more</a></p></section></article>';
       ?>
+  </main>
 <?php include $_SERVER['DOCUMENT_ROOT']."/inc/footer.php"; ?>
