@@ -38,7 +38,7 @@
     <nav class="main" role="navigation">
       <ul>
         <li<?php if (basename(dirname($_SERVER['SCRIPT_FILENAME']))=="about") echo " id=\"currentpage\""; ?>><a href="/about">About</a></li>
-        <li<?php if (basename(dirname($_SERVER['SCRIPT_FILENAME']))=="community-standards") echo " id=\"currentpage\"";?>><a href="/community-standards">Community standards</a></li>
+        <li<?php if (basename(dirname($_SERVER['SCRIPT_FILENAME']))=="community-standards") echo " id=\"currentpage\"";?>><a href="/community-standards">Community Standards</a></li>
         <li<?php if (basename(dirname($_SERVER['SCRIPT_FILENAME']))=="blog") echo " id=\"currentpage\""; ?>><a href="/blog">Blog</a></li>
         <li<?php if (basename(dirname($_SERVER['SCRIPT_FILENAME']))=="wiki") echo " id=\"currentpage\""; ?>><a href="/wiki">Wiki</a></li>
         <li<?php if (basename(dirname($_SERVER['SCRIPT_FILENAME']))=="contribute") echo " id=\"currentpage\""; ?>><a href="/contribute">Contribute</a></li>
