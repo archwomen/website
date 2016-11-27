@@ -17,6 +17,24 @@
       <p>The #archlinux-women channel was created to provide a "safe space" for 
       people to chat without the need to hide their gender or sexual identity. 
       We also have other ways you can <a href="/contact">contact us</a>.</p>
+      <h2 role="heading">Mission Statement</h2>
+      <p>Archlinux can be daunting at first for many newcomers, and most general
+      communities are not always welcoming towards minorities, or sometimes not
+      welcoming at all. As a result of these aggressive environments, minorities are
+      discouraged and even occasionally excluded from certain communities.</p>
+      <p>Arch Women aims to provide a welcoming community to those interested in Archlinux,
+      with a focus on women. We work to encourage the use and contribution to the Archlinux,
+      Linux and other related projects by women and other minorities in the tech world.</p>
+      <p>To accomplish this, we provide a "safe haven" for minorities, in our <code>#archlinux-women</code>
+      IRC channel, where we maintain friendly discussion and condemn any discriminatory speech
+      or trolling. We host Linux-related classes in <code>#archlinux-classroom</code>. We also
+      hold monthly meetings where we discuss what we can do to help minorities in tech and how
+      we can contribute to Archlinux.
+      </p>
+      <p>Arch Women does not aim to be a separate community from the Archlinux community, but rather
+      a safe place for minorities <em>within</em> the Archlinux community. This allows us to contribute
+      directly to the Archlinux project.
+      </p>
       <h2 role="heading">History</h2>
       <p>Arch Women was founded in February 2012 by Dolores Portalatin - 
       "meskarune". It sprang from an IRC conversation in #archlinux-offtopic about 
